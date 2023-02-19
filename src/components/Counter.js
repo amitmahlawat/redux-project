@@ -20,8 +20,8 @@ const decrementHandler=()=>{
       <h1>Redux Counter</h1>
       <div className={classes.value}>{counter}</div>
       <div>
-        <button onClick={incrementHandler}>increment</button>
-        <button onClick={decrementHandler}>decrement</button>
+        <button onClick={incrementHandler}>incrementBy5</button>
+        <button onClick={decrementHandler}>decrementBy5</button>
       </div>
       <button onClick={toggleCounterHandler}>Toggle Counter</button>
     </main>
